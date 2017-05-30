@@ -136,7 +136,7 @@ img.fotobbreis{
 
 .historico{
     height: 100vh;
-    background-color: #fff;
+    background-color: #C4D8FF;
     position:relative;
     z-index: 1;
 }
@@ -153,6 +153,10 @@ img.fotobbreis{
 .fotosbbreis{
     width: 20%;
     -webkit-transform: rotate(7deg);
+    float: right;
+}.fotosbbreis2{
+    width: 20%;
+    -webkit-transform: rotate(-7deg);
     float: right;
 }
 
@@ -177,9 +181,19 @@ img.fotobbreis{
     padding-top: 12%;
     text-align: center;
     
+}.parservic1{
+    float:left;
+    padding:1%;
+    font-size: 1.4em;
+    padding-top: 3%;
+    text-align: center;
+    
 }
 .parservic::first-letter{    font-size:1.56em;
 }
+.parservic1::first-letter{    font-size:1.56em;
+}
+
 .branco{
     background-color: #FFFFFF;
     position:absolute;
