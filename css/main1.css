@@ -128,13 +128,35 @@ img.fotobbreis{
 
 }
 .servicos{
-    height: 48em;
+    height: 100vh;
     background-image: url(../img/space-wallpaper3.jpg);
     position:relative;
     z-index: 1;
 }
 
-.servicos h1,.contato h1{
+.historico{
+    height: 100vh;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+.historico h1{
+    text-align: left;
+    margin-right:156%;
+    color: #000;
+    padding-top:2%;
+    font-size: 1.8em;
+    padding-left: 3%;
+    z-index: 1;
+    font-weight: bold
+}
+.fotosbbreis{
+    width: 20%;
+    -webkit-transform: rotate(7deg);
+    float: right;
+}
+
+.servicos h1,.contato h1 {
     text-align: left;
     margin-right:156%;
     color: #000;
@@ -156,8 +178,7 @@ img.fotobbreis{
     text-align: center;
     
 }
-.parservic::first-letter{
-    font-size:1.56em;
+.parservic::first-letter{    font-size:1.56em;
 }
 .branco{
     background-color: #FFFFFF;

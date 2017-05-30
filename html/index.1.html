@@ -15,6 +15,7 @@
             <ul>
                 <li><a href="./galeria.html" style="cursor:pointer">GALERIA</a></li>   
                 <li><a href="#contato">CONTATO</a></li>   
+                <li><a href="#historico">HISTÓRICO</a></li>   
                 <li><a href="#servicos">SERVIÇOS</a></li>
             </ul>
         </nav>
@@ -50,13 +51,6 @@
                     necessário da forma mais<br> simples e concisa, levando sempre em consideração <br>conceitos como
                     Estudos das Cores e Formas. </p>
                 </div>
-            <!--        
-                <img src="../img/html-logo.png" class="logos1" alt="html logo"></img>
-                <img src="../img/css-logo.png" class="logos2" alt="css logo"></img>
-                <img src="../img/js-logo.png" class="logos3" alt="javascript logo"></img>
-                <img src="../img/ai-logo.png" class="logos4" alt="illustrator logo"></img>
-                <img src="../img/photoshop-logo.png" class="logos5" alt="photoshop logo"></img>
-         -->
          </div>
       
       
@@ -64,6 +58,14 @@
      
 
         </div>
+        <div id="historico" class="historico" name="historico">
+            <h1>HISTÓRICO</h1>
+            
+                <img alt="fotos" src="../img/foto-babi.jpg" onmouseover="this.src='../img/foto-babi2.jpg'" onmouseout="this.src='../img/foto-babi.jpg'" class="fotosbbreis"/>
+        
+        </div>
+        
+        
         
         <div id="contato" class="contato"  name="contato" >
             <!--<h1> CONTATO </h1>
@@ -128,7 +130,7 @@
             </footer>
         </div>
         <!-- FIM DO RODAPE-->
-<script type="text/javascript" >
+        <script type="text/javascript" >
                  
             var ypos,image;
             function parallex(){
@@ -161,6 +163,25 @@
             });
             console.log(posicaoServicos)
             console.log(posicaoScroll)   
+            
+            var historico = document.querySelector(".historico");
+            var posicaoHistorico = historico.offsetTop;
+            var posicaoScroll = document.body.scrollTop;
+            
+            function whenScroll () {
+                var historico = document.querySelector(".historico");
+                var posicaoHistorico = historico.offsetTop;
+                var posicaoScroll = document.body.scrollTop;
+            }
+            
+            window.addEventListener('scroll', function (e) {
+                var historico = document.querySelector(".historico");
+                var posicaoHistorico = historico.offsetTop;
+                var posicaoScroll = document.body.scrollTop;
+                console.log(posicaoScroll)
+            });
+            console.log(posicaoHistorico)
+            console.log(posicaoScroll) 
         </script>
         
         <script src="../js/pace.js"></script>
