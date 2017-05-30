@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="pt">
+        <link rel="stylesheet" href="../css/main1.css" type="text/css"/>
+        <title> Bárbara Reis </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/pace.css">
+        <script src="../js/main.js"></script>
+        
+    </head>
+    <body>
+         <!-- INICIO DO MENU -->
+        <nav class="menu">
+            <ul>
+                <li><a href="./galeria.html" style="cursor:pointer">GALERIA</a></li>   
+                <li><a href="#contato">CONTATO</a></li>   
+                <li><a href="#servicos">SERVIÇOS</a></li>
+            </ul>
+        </nav>
+        
+        <div id="img-fundo-principal">
+        
+        <h1 class="principal">
+            Welcome to my page
+        </h1>
+        <p class="description">Olá, meu nome é Bárbara Reis. Brasileira,<br>
+        20 anos, solteira. Estudante de <br>Sistemas para Internet na Faculdade
+        de Técnologia da<br> Baixada Santista. 
+        <br>Desenvolvedora web em formação, <br>mãe de 2 cachorros
+        atriz e cantora nas horas vagas.<br> Seja bem vindo ao meu site!</p>
+        <div class="divfotobbreis">
+         <img src="../img/16508964_1534914209855540_521055435113792056_n.jpg" alt="foto Bárbara" class="fotobbreis"></img>
+        </div>
+        <!-- FIM DO MENU-->
+        
+        
+        <!-- INICIO DO CORPO -->
+        </div>
+
+        <div id="servicos" class="servicos" name="servicos">
+            <h1> SERVIÇOS </h1>
+            <div class="branco">
+                <div class="parservic">
+                    <p> Desenvolvimento de sites com HTML5, CSS3 e JavaScript.<br> Mantendo sempre
+                    os padrões estabelicidos pelo W3C e garantindo o <br>acesso do maior público
+                    possivel estando dentro das normas do WCAG</p>
+                    <p> Edição de imagens, criação de logotipos e desings variados.<br> Com auzilio de 
+                    softwares como Adobe Illustrator e Adobe Photoshop,<br> visando sempre transmitir o conteúdo
+                    necessário da forma mais<br> simples e concisa, levando sempre em consideração <br>conceitos como
+                    Estudos das Cores e Formas. </p>
+                </div>
+            <!--        
+                <img src="../img/html-logo.png" class="logos1" alt="html logo"></img>
+                <img src="../img/css-logo.png" class="logos2" alt="css logo"></img>
+                <img src="../img/js-logo.png" class="logos3" alt="javascript logo"></img>
+                <img src="../img/ai-logo.png" class="logos4" alt="illustrator logo"></img>
+                <img src="../img/photoshop-logo.png" class="logos5" alt="photoshop logo"></img>
+         -->
+         </div>
+      
+      
+      </div> 
+     
+
+        </div>
+        
+        <div id="contato" class="contato"  name="contato" >
+            <!--<h1> CONTATO </h1>
+            
+            <div class="formulario">
+                    <form name="form" action=" " method="post" onSubmit=" return validar();">
+                    <fieldset>
+                        <fieldset class="grupo">
+                            <div class="campo">
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" name="nome" style="width: 10em" value="" />
+                            </div>
+                            <div class="campo">
+                                <label for="snome">Sobrenome</label>
+                                <input type="text" id="snome" name="snome" style="width: 10em" value="" />
+                            </div>
+                        </fieldset>
+                        
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email" name="email" style="width: 20em" value=""   />
+                        </div>
+                        <div class="campo">
+                            <label for="telefone">Telefone</label>
+                            <input type="text" id="telefone" name="telefone" style="width: 10em"  value=""  />
+                        </div>
+                 
+                        <div class="campo">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+                        </div>
+                 
+                 
+                         <button  class="button">Teste</button>
+                 
+                    </fieldset>
+                </form>
+            </div>-->
+        </div>
+
+
+        <!-- FIM DO CORPO-->
+        
+        
+        <!-- INICIO DO RODAPE -->
+        <div class="rodape">
+            <footer>
+               
+                    <div class="icons">
+                        <a href="https://www.facebook.com/bbreistkd" target="_blank" >
+                		    <img src="../img/facebook-128.png" alt="Link para o Facebook de Barbara" class="socialrede">
+                	    </a>
+                	    <a href="http://www.twitter.com/_bbreis" target="_blank">
+                		    <img src="../img/twitter.png" alt="Link para o Twitter de Barbara" class="socialrede" >
+                	    </a> 
+                	    <a href="http://www.poetrizando.tumblr.com" target="_blank">
+                		    <img src="../img/tumblr.png" alt="Link para o Tumblr de Barbara" class="socialrede" >
+                	    </a>
+                    </div>
+                    
+             <p> Desenvolvido por Bárbara Reis 2017</p>
+            </footer>
+        </div>
+        <!-- FIM DO RODAPE-->
+<script type="text/javascript" >
+                 
+            var ypos,image;
+            function parallex(){
+                ypos = window.pageYOffset;
+                image = document.getElementById('img-fundo-principal');
+                image.style.top = ypos * 1 + 'px';
+            }
+            window.addEventListener('scroll',parallex);
+            
+   
+            
+            var node = document.getElementById('contato'); // Pega o elemento alvo.
+            var app = Elm.Main.embed(node);                // Injeta a aplicação Elm dentro do elemento alvo.
+            
+            var servicos = document.querySelector(".servicos");
+            var posicaoServicos = servicos.offsetTop;
+            var posicaoScroll = document.body.scrollTop;
+            
+            function whenScroll () {
+                var servicos = document.querySelector(".servicos");
+                var posicaoServicos = servicos.offsetTop;
+                var posicaoScroll = document.body.scrollTop;
+            }
+            
+            window.addEventListener('scroll', function (e) {
+                var servicos = document.querySelector(".servicos");
+                var posicaoServicos = servicos.offsetTop;
+                var posicaoScroll = document.body.scrollTop;
+                console.log(posicaoScroll)
+            });
+            console.log(posicaoServicos)
+            console.log(posicaoScroll)   
+        </script>
+        
+        <script src="../js/pace.js"></script>
+        <script src="../js/validacao.js"></script>
+    </body>
+</html>
