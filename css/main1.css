@@ -1,8 +1,5 @@
 /* FOLHA DE ESTILO */
-/*https://daneden.github.io/animate.css/
-http://mynameismatthieu.com/WOW/
-http://johnpolacek.github.io/scrollorama/ 
-smooth scroll*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
@@ -154,7 +151,8 @@ img.fotobbreis{
     width: 20%;
     -webkit-transform: rotate(7deg);
     float: right;
-}.fotosbbreis2{
+}
+.fotosbbreis2{
     width: 20%;
     -webkit-transform: rotate(-7deg);
     float: right;
@@ -204,42 +202,6 @@ img.fotobbreis{
     border-style: inset;
     opacity: .5;
 }
-img.logos1{
-    max-width:13%;
-    position:absolute;
-    top:10%;
-    left:10%;
-    position: relative;
-}
-img.logos2{
-    max-width:13%;
-    position:absolute;
-    top:15%;
-    left:60%;
-}
-img.logos3{
-    max-width:20%;
-    position:absolute;
-    top:35%;
-    left:68%;
-}
-img.logos4{
-    max-width:200px;
-    max-height:200px;
-    position:absolute;
-    top:43%;
-    left:60%;
-}
-
-.logos5{
-    max-width:125%;
-    max-height:125%;
-    position:absolute;
-    top:60%;
-    left:70%;
-}
-    
-
 .contato{
    height: 48em;
     background-color: #F6F6F6;
@@ -248,7 +210,7 @@ img.logos4{
 }
 
 
-/*FORMULARIO */
+/*FORMULARIO 
 .formulario{
    width:370px;
    left: 1%;
@@ -351,14 +313,14 @@ fieldset.grupo .campo {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-     -webkit-transition-duration: 0.4s; /* Safari */
+     -webkit-transition-duration: 0.4s; /* Safari 
     transition-duration: 0.4s;
 
 }
 .button:hover{
     background-color: #555555;
     color: #FFFFFF;
-}
+} */
 /* FOOTER */
 .rodape{
     height: 2em;
