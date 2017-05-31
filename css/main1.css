@@ -23,31 +23,29 @@ body{
     z-index: 99;
     background: #000;
     opacity: .35;
-
-    
 }
 
 .menu ul{
     list-style:none;
     position:relative;
-    
 }
+
 .menu ul li{
     width: 130px;
-    float:right; /* COLOCAR MENU PRA DIREITA*/
+    float:right; 
     margin-left: 7%;
-    
 }
+
 .menu a{
     text-decoration:none;
     margin-top: 10%;
     display:block;
     text-align: center;
     color: #FFF;
-
     font-size: x-large;
     font-weight: bold;
 }
+
 .menu a:hover{
     text-decoration: underline;
     background-color: #F6F6F6;
@@ -56,20 +54,20 @@ body{
 
 .menu ul ul{
     position: absolute;
-    visibility: hidden; /*PRA SUMIR O MENU */
+    visibility: hidden; 
 }
 
 .menu ul ul li{
     float:none;
     border-bottom:solid 0.1em #ccc;
-    
 }
+
 .menu ul ul li a:hover{
     text-decoration: underline;
 }
+
 label[for="bt_menu"]{
     padding: 8%;
-/*    background-color: #222; */
     color:#fff;
     text-align: center;
     font-size: 18%;
@@ -78,9 +76,13 @@ label[for="bt_menu"]{
     height: 1600em;
     display:none;
 }
+
 #bt_menu{
     display:none;
 }
+
+
+
 /* CORPO */
 h1.principal{
     text-align: center;
@@ -92,18 +94,19 @@ h1.principal{
     border-top: none;
     border-right: none;
     border-left: none;
-    
 }
+
 p.description{
     color: #FFFFFF;
     text-align: center;
     font-size: 125%;
     padding: 1.2%;
-    
 }
+
 p.description::first-letter{
     font-size:175%;
 }
+
 img.fotobbreis{
     max-width: 10%;
     position: relative;
@@ -112,18 +115,15 @@ img.fotobbreis{
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
     border-radius: 200px;
-    
 }
-
 
 #img-fundo-principal{
     height: 100vh;
     background-image: url(../img/FUNDO.jpg);
     position: relative;
     z-index:-1;
-    
-
 }
+
 .servicos{
     height: 100vh;
     background-image: url(../img/space-wallpaper3.jpg);
@@ -137,6 +137,7 @@ img.fotobbreis{
     position:relative;
     z-index: 1;
 }
+
 .historico h1{
     text-align: left;
     margin-right:156%;
@@ -147,11 +148,13 @@ img.fotobbreis{
     z-index: 1;
     font-weight: bold
 }
+
 .fotosbbreis{
     width: 20%;
     -webkit-transform: rotate(7deg);
     float: right;
 }
+
 .fotosbbreis2{
     width: 20%;
     -webkit-transform: rotate(-7deg);
@@ -167,29 +170,34 @@ img.fotobbreis{
     padding-left: 3%;
     z-index: 1;
     font-weight: bold
-    
 }
+
 .servicos p {
     color: #222222;
 }
+
 .parservic{
     float:left;
     padding:3%;
     font-size: 1.4em;
     padding-top: 12%;
     text-align: center;
-    
-}.parservic1{
+}
+
+.parservic1{
     float:left;
     padding:1%;
     font-size: 1.4em;
     padding-top: 3%;
     text-align: center;
-    
 }
-.parservic::first-letter{    font-size:1.56em;
+
+.parservic::first-letter{
+    font-size:1.56em;
 }
-.parservic1::first-letter{    font-size:1.56em;
+
+.parservic1::first-letter{
+    font-size:1.56em;
 }
 
 .branco{
@@ -202,6 +210,7 @@ img.fotobbreis{
     border-style: inset;
     opacity: .5;
 }
+
 .contato{
    height: 48em;
     background-color: #F6F6F6;
@@ -220,15 +229,16 @@ img.fotobbreis{
    border-style: inset;
    padding: 1%;
    z-index: 1;
-
 }
+
 form{
     padding-bottom:10%;
 }
+
 fieldset {
     border: 0;
 }
- 
+
 body, input, select, textarea, button {
     font-family: sans-serif;
     font-size: 1em;
@@ -304,6 +314,7 @@ fieldset.grupo .campo {
 .botao, select, label.checkbox {
     cursor: pointer;
 }
+
 .button {
     background-color: #FFFFFF; 
     border: 2px solid #555555;
@@ -315,22 +326,25 @@ fieldset.grupo .campo {
     font-size: 16px;
      -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-
 }
+
 .button:hover{
     background-color: #555555;
     color: #FFFFFF;
 } 
+
+
 /* FOOTER */
 .rodape{
     height: 2em;
     position:absolute;
     background-color: transparent
-  
 }
-.rodape .icons a{
+ 
+ .rodape .icons a{
     text-decoration: none;
 }
+
 .socialrede{
     width: 5%;
     -webkit-border-radius: 200px;
@@ -340,6 +354,7 @@ fieldset.grupo .campo {
     padding-left: 1%;
     padding-right: 1%;
 }
+
 .rodape p{
     text-align: center;
     color: #FFF;
